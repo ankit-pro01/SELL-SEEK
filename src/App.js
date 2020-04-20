@@ -1,9 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './containers/Navbar/Navbar';
+import Banner from "./components/Banner/banner";
+import Items from './containers/Items/Items';
 
 function App() {
-  return (<h1>Hello world</h1>)
-  }
+  return (
+    <div>
+      <Navbar />
+      <Banner />
+      <Items />
+    </div>
+  )
+}
 
 export default App;

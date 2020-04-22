@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+import classes from './Navbar.module.css';
 
 class Navbar extends Component {
     render(){
         return(
-            <h2>Hello from Nav bar</h2>
+            <div className = {classes.navbar}>
+                <h2>Hello from Nav bar</h2>
+            </div>
         )
     }
 }

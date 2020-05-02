@@ -1,9 +1,32 @@
 .navbar{
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 8vh;
     width: 100%;
     color: white;
     background-color: #606060;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
 }
+
+ul{ 
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    margin: 0px 10px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+
